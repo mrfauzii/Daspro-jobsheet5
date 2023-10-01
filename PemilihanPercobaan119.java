@@ -6,11 +6,16 @@ public class PemilihanPercobaan119 {
 
         System.out.print("Masukan angka: ");
         int angka = input19.nextInt();
+        String hasil;
 
-        if (angka % 2 == 0)
-            System.out.println("Angka "+angka+" bilangan genap");
-        else
-            System.out.println("Angka "+angka+" bilangan ganjil");
+        if (angka % 2 != 0) {
+            hasil="Bilangan ganjil";
+        }
+        else{
+            hasil="Bilangan genap";
+        }
+        System.out.println(angka + " adalah " + hasil);
+            
                 
 
 
